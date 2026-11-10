@@ -1,0 +1,50 @@
+{
+  "_doc": "La carte, à remplir et confirmer avec Avesta. Prix relevés sur la carte Deliveroo le 2026-11-10 (souvent un peu plus élevés que sur place) ; null = prix à confirmer (affiché « prix sur place »). from: true = « à partir de ». Noms et descriptions dans locales/fr.json et en.json → products. photo : chemins essayés dans l'ordre (le premier présent dans public/media gagne ; sinon un emplacement « photo à venir »). options : choix proposés à la commande (viande, sauce, base). sizes : tailles (tacos). tags : toConfirm (plat à confirmer avec le restaurant), spicy.",
+  "checked": "2026-11-10",
+  "options": {
+    "viande": ["poulet", "kebab", "tenders", "nuggets", "steak", "cordon-bleu", "merguez", "kefta"],
+    "sauce": ["blanche", "algerienne", "samourai", "harissa", "biggy", "barbecue", "ketchup", "mayonnaise"],
+    "base": ["riz", "pates"]
+  },
+  "categories": [
+    { "id": "perses", "items": ["kabab-koobideh", "joojeh-kabab", "chelow-tahdig", "doogh"] },
+    { "id": "tacos", "items": ["tacos"] },
+    { "id": "assiettes", "items": ["assiette-adana", "assiette-kebab", "assiette-kefta", "assiette-poulet", "assiette-tenders", "assiette-steak", "assiette-cordon-bleu", "assiette-merguez", "assiette-nuggets"] },
+    { "id": "sandwichs", "items": ["sandwich", "burger", "panini"] },
+    { "id": "menus", "items": ["box", "menu-etudiant"] },
+    { "id": "desserts-boissons", "items": ["dessert", "canette", "energy", "bouteille-50", "jus", "eau-50", "bouteille-15"] }
+  ],
+  "items": {
+    "kabab-koobideh": { "price": null, "photo": ["/media/specialites-perses/kabab-koobideh.jpg"], "illus": "skewer", "tags": ["toConfirm"] },
+    "joojeh-kabab": { "price": null, "photo": ["/media/specialites-perses/joojeh-kabab.jpg"], "illus": "skewer", "tags": ["toConfirm"] },
+    "chelow-tahdig": { "price": null, "photo": ["/media/specialites-perses/chelow-tahdig.jpg"], "illus": "rice", "tags": ["toConfirm"] },
+    "doogh": { "price": null, "photo": ["/media/specialites-perses/doogh.jpg"], "illus": "glass", "tags": ["toConfirm"] },
+
+    "tacos": { "price": 7.99, "from": true, "sizes": [{ "id": "m", "price": 7.99 }, { "id": "l", "price": null }, { "id": "xl", "price": null }], "options": ["viande", "sauce"], "photo": ["/media/plats/tacos.jpg"], "illus": "tacos", "tags": [] },
+
+    "assiette-adana": { "price": 19, "options": ["sauce"], "photo": ["/media/plats/assiette-adana.jpg"], "illus": "plate", "tags": ["spicy"] },
+    "assiette-kebab": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-kebab.jpg"], "illus": "plate", "tags": [] },
+    "assiette-kefta": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-kefta.jpg"], "illus": "plate", "tags": [] },
+    "assiette-poulet": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-poulet.jpg"], "illus": "plate", "tags": [] },
+    "assiette-tenders": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-tenders.jpg"], "illus": "plate", "tags": [] },
+    "assiette-steak": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-steak.jpg"], "illus": "plate", "tags": [] },
+    "assiette-cordon-bleu": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-cordon-bleu.jpg"], "illus": "plate", "tags": [] },
+    "assiette-merguez": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-merguez.jpg"], "illus": "plate", "tags": ["spicy"] },
+    "assiette-nuggets": { "price": 16, "options": ["sauce"], "photo": ["/media/plats/assiette-nuggets.jpg"], "illus": "plate", "tags": [] },
+
+    "sandwich": { "price": 7.5, "from": true, "options": ["viande", "sauce"], "photo": ["/media/plats/sandwich.jpg"], "illus": "sandwich", "tags": [] },
+    "burger": { "price": 7.5, "from": true, "options": ["viande", "sauce"], "photo": ["/media/plats/burger.jpg"], "illus": "burger", "tags": [] },
+    "panini": { "price": 8, "from": true, "options": ["viande", "sauce"], "photo": ["/media/plats/panini.jpg"], "illus": "sandwich", "tags": [] },
+
+    "box": { "price": 9, "options": ["base", "viande", "sauce"], "photo": ["/media/plats/box.jpg"], "illus": "box", "tags": [] },
+    "menu-etudiant": { "price": null, "photo": ["/media/plats/menu-etudiant.jpg"], "illus": "box", "tags": ["toConfirm"] },
+
+    "dessert": { "price": null, "photo": ["/media/plats/dessert.jpg"], "illus": "dessert", "tags": ["toConfirm"] },
+    "canette": { "price": 2.3, "photo": [], "illus": "can", "tags": [] },
+    "energy": { "price": 3, "photo": [], "illus": "can", "tags": [] },
+    "bouteille-50": { "price": 2.8, "photo": [], "illus": "bottle", "tags": [] },
+    "jus": { "price": 2.5, "photo": [], "illus": "glass", "tags": [] },
+    "eau-50": { "price": 2, "photo": [], "illus": "bottle", "tags": [] },
+    "bouteille-15": { "price": 3.5, "photo": [], "illus": "bottle", "tags": [] }
+  }
+}

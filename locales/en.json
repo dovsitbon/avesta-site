@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "title": "Persian food and tacos open until 5 am in Amiens | Avesta",
+    "description": "Avesta, 49 rue des Augustins, Amiens: Persian specialities, tacos, plates, sandwiches and fries, every day from 11 am to 5 am. Eat in or take away, order online.",
+    "ogAlt": "Avesta, Persian specialities and tacos, open until 5 am, 49 rue des Augustins, Amiens"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "home": "Avesta, home",
+    "carte": "Menu",
+    "perses": "Persian specialities",
+    "order": "Order",
+    "infos": "Info",
+    "orderCta": "Order",
+    "call": "Call",
+    "route": "Directions",
+    "lang": "Language"
+  },
+  "intro": { "skip": "Skip", "open": "Open until 5 am" },
+  "announce": { "close": "Close the banner" },
+  "hero": {
+    "eyebrow": "Persian specialities · Tacos · Plates · Amiens",
+    "title": "Open when Amiens gets hungry.",
+    "sub": "Every day, from 11 am to 5 am. Rue des Augustins.",
+    "ctaOrder": "Order",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "{count} reviews",
+    "ratingNote": "Google rating checked on {date}"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed right now",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "tiles": {
+    "title": "The menu at a glance",
+    "items": {
+      "perses": "Persian specialities",
+      "tacos": "Tacos",
+      "assiettes": "Plates",
+      "sandwichs": "Sandwiches",
+      "menus": "Set menus",
+      "desserts-boissons": "Desserts & drinks"
+    }
+  },
+  "services": {
+    "title": "What Avesta offers",
+    "items": [
+      { "t": "Until 5 am", "d": "Every day, Sundays too." },
+      { "t": "Takeaway", "d": "Order, drop by, it's ready." },
+      { "t": "Eat in", "d": "Grab a table, we'll handle the rest." },
+      { "t": "By phone", "d": "03 75 50 82 02, any time we're open." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "You choose. We do the rest.",
+    "intro": "Tacos, plates, sandwiches and Persian specialities. Clear prices, one tap to add to your order.",
+    "tabsLabel": "Menu categories",
+    "tabs": {
+      "perses": "Persian specialities",
+      "tacos": "Tacos",
+      "assiettes": "Plates",
+      "sandwichs": "Sandwiches",
+      "menus": "Boxes & set menus",
+      "desserts-boissons": "Desserts & drinks"
+    },
+    "priceOnSite": "Price in store",
+    "from": "from {price}",
+    "add": "Add",
+    "addLabel": "Add to order: {name}",
+    "askOnSite": "Ask at the counter",
+    "seeFull": "Full menu",
+    "persesNote": "Our Persian specialities are being added to the site. These are still to be confirmed: ask at the counter what's on today.",
+    "choicesTitle": "Your choice of",
+    "allergens": "Allergens: just ask, we'll go through every dish with you.",
+    "checked": "Prices checked on {date}, to be confirmed in store."
+  },
+  "tags": {
+    "toConfirm": "To be confirmed",
+    "spicy": "Spicy"
+  },
+  "sizes": { "m": "Size M", "l": "Size L", "xl": "Size XL" },
+  "optionTitles": { "viande": "Meat", "sauce": "Sauce", "base": "Base", "size": "Size" },
+  "options": {
+    "viande": { "poulet": "Chicken", "kebab": "Kebab", "tenders": "Tenders", "nuggets": "Nuggets", "steak": "Beef patty", "cordon-bleu": "Cordon bleu", "merguez": "Merguez", "kefta": "Kefta" },
+    "sauce": { "blanche": "White sauce", "algerienne": "Algerian", "samourai": "Samurai", "harissa": "Harissa", "biggy": "Biggy", "barbecue": "Barbecue", "ketchup": "Ketchup", "mayonnaise": "Mayonnaise" },
+    "base": { "riz": "Rice", "pates": "Pasta" }
+  },
+  "products": {
+    "kabab-koobideh": { "name": "Kabab koobideh", "desc": "The Persian minced-meat skewer, grilled, with saffron rice and grilled tomato." },
+    "joojeh-kabab": { "name": "Joojeh kabab", "desc": "Chicken marinated in saffron and lemon, grilled on a skewer." },
+    "chelow-tahdig": { "name": "Saffron rice and tahdig", "desc": "Saffron basmati rice with its golden crust, the tahdig." },
+    "doogh": { "name": "Doogh", "desc": "The Persian yoghurt and mint drink, served cold." },
+    "tacos": { "name": "Tacos", "desc": "Grilled wrap, your choice of meat, your sauces and fries inside. Three sizes." },
+    "assiette-adana": { "name": "Adana plate", "desc": "Spiced minced-meat skewer, fries and salad." },
+    "assiette-kebab": { "name": "Kebab plate", "desc": "Kebab meat, fries and salad, with your choice of sauce." },
+    "assiette-kefta": { "name": "Kefta plate", "desc": "Grilled kefta, fries and salad." },
+    "assiette-poulet": { "name": "Chicken plate", "desc": "Chicken, fries and salad." },
+    "assiette-tenders": { "name": "Tenders plate", "desc": "Crispy tenders, fries and salad." },
+    "assiette-steak": { "name": "Beef patty plate", "desc": "Beef patty, fries and salad." },
+    "assiette-cordon-bleu": { "name": "Cordon bleu plate", "desc": "Cordon bleu, fries and salad." },
+    "assiette-merguez": { "name": "Merguez plate", "desc": "Grilled merguez, fries and salad." },
+    "assiette-nuggets": { "name": "Nuggets plate", "desc": "Nuggets, fries and salad." },
+    "sandwich": { "name": "Sandwich", "desc": "Your choice of meat: chicken, kebab, nuggets… Salad and sauce." },
+    "burger": { "name": "Burger", "desc": "Chicken, beef or tenders, with your choice of sauce." },
+    "panini": { "name": "Panini", "desc": "Kebab, chicken, beef… pressed and piping hot." },
+    "box": { "name": "Box", "desc": "Rice or pasta base, your meat and your sauce." },
+    "menu-etudiant": { "name": "Student menu", "desc": "A deal for students. Details and price coming soon." },
+    "dessert": { "name": "Desserts", "desc": "Ask at the counter what's on tonight." },
+    "canette": { "name": "33 cl can", "desc": "Coca-Cola, Fanta, Oasis, Ice Tea, Sprite, Orangina, Tropico, Hawaï." },
+    "energy": { "name": "Monster or Red Bull", "desc": "Can." },
+    "bouteille-50": { "name": "50 cl bottle", "desc": "Coca-Cola, Ice Tea, flavoured Volvic, Tropico, peach Cristaline." },
+    "jus": { "name": "25 cl fruit juice", "desc": "Orange, apple or multifruit." },
+    "eau-50": { "name": "50 cl water", "desc": "Cristaline." },
+    "bouteille-15": { "name": "Large bottle", "desc": "Coca-Cola or Fanta 1.5 L, Ice Tea 1.25 L. For sharing." }
+  },
+  "blocks": {
+    "perses": {
+      "eyebrow": "Where Avesta comes from",
+      "title": "A taste of Persia, rue des Augustins.",
+      "text": "Avesta is a Persian restaurant at heart. Saffron, grills, fragrant rice: our house recipes sit right next to the tacos and plates.",
+      "cta": "See the menu",
+      "photo": "A Persian dish, close up"
+    },
+    "nuit": {
+      "eyebrow": "Amiens at night",
+      "title": "It's 2 am. We're open.",
+      "text": "After class, after your shift, after the party: we're here until 5 am, every day. The lights are on, and so is the grill.",
+      "cta": "Directions",
+      "photo": "The shopfront, lit up at night"
+    },
+    "etudiants": {
+      "eyebrow": "Student deals",
+      "title": "Eat well without emptying your account.",
+      "text": "Lots of students drop by. A deal made for them is on its way. Meanwhile, tacos start at €7.99.",
+      "cta": "Order",
+      "photo": "Tacos and fries"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What people say on Google",
+    "text": "The tacos, the plates, the fries, the welcome and the late hours: that's what comes up most.",
+    "cta": "Read the Google reviews"
+  },
+  "order": {
+    "eyebrow": "Order",
+    "title": "Order. Drop by. It's ready.",
+    "intro": "Pick your dishes, eat in or take away, and the time that suits you. You pay at the counter.",
+    "callTitle": "Easier by phone?",
+    "callText": "Call us any time we're open, we'll take it all down.",
+    "callCta": "Call",
+    "itemsTitle": "Your dishes",
+    "modeTitle": "Eat in or take away",
+    "pickupTitle": "What time?",
+    "contactTitle": "Your details",
+    "dish": "Dish",
+    "quantity": "Quantity",
+    "addLine": "Add a dish",
+    "removeLine": "Remove this dish",
+    "day": "Day",
+    "time": "Time",
+    "tonight": "Tonight",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "noSlots": "No more slots that day: pick another day.",
+    "modes": { "emporter": "Takeaway", "surPlace": "Eat in" },
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "emailHint": "To get a summary of your order.",
+    "message": "Anything to add?",
+    "messagePh": "No onions, allergy, cutlery…",
+    "total": "Estimated total",
+    "totalNote": "Some prices are still to be confirmed at the counter.",
+    "submit": "Send my order",
+    "sending": "Sending…",
+    "payNote": "No online payment: you pay at the counter.",
+    "payOnline": "Pay online",
+    "phoneOnly": "Persian specialities can be ordered by phone for now.",
+    "errors": {
+      "lines": "Choose at least one dish.",
+      "day": "Choose a day.",
+      "time": "Choose a time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "send": "Sending failed. Call us and we'll take your order by phone."
+    },
+    "done": {
+      "title": "Got it.",
+      "text": "Your order is on its way to the kitchen. If we have a question, we'll call you.",
+      "pendingTitle": "One last step: a call",
+      "pendingText": "Your summary is ready. Call us to confirm and we'll start right away.",
+      "mail": "A summary has been sent to {email}.",
+      "again": "New order"
+    },
+    "whatsapp": "Send on WhatsApp",
+    "mail": {
+      "subject": "New order",
+      "title": "New order",
+      "lines": "Dishes",
+      "mode": "Service",
+      "pickup": "Time",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Note",
+      "total": "Estimated total",
+      "lang": "Customer language",
+      "confirmSubject": "Avesta: your order",
+      "confirmIntro": "Hello {name}, thanks for your order. Here it is:",
+      "confirmOutro": "You pay at the counter. Any question? Call us on +33 3 75 50 82 02.\n\nSee you soon,\nAvesta, 49 rue des Augustins, Amiens"
+    }
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "49 rue des Augustins. Until 5 am.",
+    "address": "Address",
+    "access": "Getting here",
+    "accessText": "Right in the centre of Amiens, a few minutes' walk from the cathedral. Parking: street spaces nearby and the city-centre car parks. On foot is even easier.",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "route": "Directions",
+    "mapTitle": "Map: Avesta, 49 rue des Augustins, Amiens",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "everyDay": "Every day",
+    "closed": "Closed",
+    "services": "Eat in · Takeaway · Phone orders",
+    "delivery": "Delivery: Avesta is also on Deliveroo and Uber Eats."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Good to know",
+    "items": [
+      { "q": "How late are you open?", "a": "Every day from 11 am to 5 am, weekends included. The “Open now” status at the top of the site updates live. Exceptional closures are announced in the banner." },
+      { "q": "How do I order takeaway?", "a": "Use the form on this site: pick your dishes, eat in or takeaway, and your time. You can also call +33 3 75 50 82 02 or just come to the counter." },
+      { "q": "How long is the wait?", "a": "When you order online, you choose your time: at the earliest 20 minutes after ordering. Your food is ready when you arrive." },
+      { "q": "How do I pay?", "a": "You pay at the counter, when you collect or at the end of your meal. There's no online payment for now." },
+      { "q": "Do you serve Persian food?", "a": "Yes, it's what Avesta is about. The full list is coming to the site soon: meanwhile, ask at the counter what's on today." },
+      { "q": "Do you deliver?", "a": "Not directly, but Avesta is on Deliveroo and Uber Eats. For the best price and hot fries, ordering here and dropping by is the easiest." }
+    ]
+  },
+  "footer": {
+    "tagline": "Persian specialities, tacos, plates and fries. Every day, until 5 am.",
+    "menu": "Menu",
+    "nuit": "Late-night food in Amiens",
+    "tacos": "Tacos in Amiens",
+    "legal": "Legal notice",
+    "rights": "© {year} Avesta, Amiens"
+  },
+  "pages": {
+    "carte": {
+      "slug": "menu",
+      "title": "The menu",
+      "metaTitle": "Menu and prices: tacos, plates, Persian food | Avesta Amiens",
+      "metaDescription": "Avesta's menu in Amiens: tacos from €7.99, kebab, kefta and adana plates, sandwiches, burgers, paninis, boxes and Persian specialities. Open until 5 am, takeaway.",
+      "eyebrow": "Avesta · Amiens",
+      "lead": "Everything is on this page, with prices. Add, order, drop by."
+    },
+    "nuit": {
+      "slug": "late-night-food-amiens",
+      "title": "Late-night food in Amiens",
+      "metaTitle": "Late-night restaurant in Amiens, open until 5 am | Avesta",
+      "metaDescription": "Eating late in Amiens: Avesta is open every day until 5 am, 49 rue des Augustins. Tacos, kebab, plates, Persian specialities, eat in or takeaway.",
+      "eyebrow": "Eating late in Amiens",
+      "lead": "Avesta is open every day from 11 am to 5 am, right in the centre of Amiens. For a meal after work, a post-party craving or a night of revision.",
+      "sections": [
+        { "h": "Open every day, until 5 am", "p": "Monday to Sunday, the kitchen runs from 11 am to 5 am. No closing day: just check the banner at the top of the site for exceptional closures." },
+        { "h": "What to eat at 3 am", "p": "Tacos, a kebab, a plate with fries and salad, a burger or a rice or pasta box. And, on some days, our Persian house specialities." },
+        { "h": "Eat in, takeaway or by phone", "p": "Sit down, pick up your order, or call +33 3 75 50 82 02. On the site, you choose your pick-up time, even in the middle of the night." },
+        { "h": "In the heart of Amiens", "p": "At 49 rue des Augustins, a few minutes' walk from the cathedral. Handy for walking home after a night out." }
+      ],
+      "cta": "Order now"
+    },
+    "tacos": {
+      "slug": "tacos-amiens",
+      "title": "Tacos in Amiens",
+      "metaTitle": "Tacos in Amiens from €7.99, open until 5 am | Avesta",
+      "metaDescription": "Tacos in Amiens, three sizes, from €7.99: chicken, kebab, tenders, cordon bleu, merguez… At Avesta, 49 rue des Augustins, open every day until 5 am.",
+      "eyebrow": "Tacos at Avesta",
+      "lead": "Grilled wrap, your choice of meat, sauces and fries inside. Three sizes, from €7.99, every day until 5 am.",
+      "sections": [
+        { "h": "Build yours", "p": "Chicken, kebab, tenders, nuggets, beef, cordon bleu, merguez or kefta. Add your sauce: white, Algerian, samurai, harissa, biggy, barbecue…" },
+        { "h": "Three sizes", "p": "For a small appetite, a big one, or if you just can't decide. Tacos start at €7.99; larger sizes are priced at the counter." },
+        { "h": "With fries, of course", "p": "Our fries come up a lot in customer reviews. Inside the tacos or on the side, they're there." },
+        { "h": "Until 5 am, every day", "p": "Order online and pick your time, or come straight to 49 rue des Augustins." }
+      ],
+      "cta": "Order tacos"
+    },
+    "legal": {
+      "slug": "legal",
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | Avesta Amiens",
+      "editor": "Publisher",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The details sent with the order form (name, phone, optional email) are only used to prepare and confirm your order. They are never sold or used for advertising. To have them deleted, call us on {phone}.",
+      "photos": "Photos",
+      "photosText": "Photos: Avesta. No stock images.",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "toConfirm": "to be completed"
+    }
+  },
+  "alt": {},
+  "slots": {
+    "soon": "Photo coming soon",
+    "hero": "The shopfront, lit up at night",
+    "facade": "The shopfront",
+    "salle": "The dining room"
+  }
+}

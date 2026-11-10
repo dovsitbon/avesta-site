@@ -1,0 +1,14 @@
+# Avesta, Amiens
+
+> Restaurant de spécialités perses et de restauration rapide au 49 rue des Augustins, 80000 Amiens. Ouvert tous les jours de 11 h à 5 h du matin. Sur place, à emporter, commande par téléphone (03 75 50 82 02) ou en ligne, paiement au comptoir. Aussi sur Deliveroo et Uber Eats. Note Google : 4,7/5 sur 199 avis (relevé le 10 novembre 2026).
+
+- Carte (prix relevés sur Deliveroo, à confirmer sur place) : tacos à partir de 7,99 € (3 tailles, viande et sauce au choix), assiettes kebab, kefta, poulet, tenders, steak, cordon bleu, merguez, nuggets 16 €, assiette adana 19 €, sandwich et burger 7,50 €, panini 8 €, box riz ou pâtes 9 €, boissons de 2 € à 3,50 €.
+- Spécialités perses : liste en cours de confirmation avec le restaurant.
+
+## Pages
+
+- [Accueil](https://avesta-amiens.vercel.app/fr)
+- [La carte](https://avesta-amiens.vercel.app/fr/carte)
+- [Restaurant ouvert tard à Amiens](https://avesta-amiens.vercel.app/fr/restaurant-ouvert-tard-amiens)
+- [Tacos à Amiens](https://avesta-amiens.vercel.app/fr/tacos-amiens)
+- [English](https://avesta-amiens.vercel.app/en)

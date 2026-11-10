@@ -1,0 +1,20 @@
+{
+  "_doc": "Coordonnées et réglages généraux. rating : note Google relevée à la main (mettre à jour value, count et checked). whatsapp : numéro de portable au format international sans + (ex. 33612345678) ; vide = WhatsApp masqué (le restaurant n'a qu'une ligne fixe). payment.enabled : paiement en ligne (Stripe), désactivé par défaut.",
+  "name": "Avesta",
+  "fullName": "Avesta, spécialités perses et restauration rapide",
+  "url": "https://avesta-amiens.vercel.app",
+  "phone": "03 75 50 82 02",
+  "phoneIntl": "+33375508202",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "49 rue des Augustins", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8951826, "lng": 2.3059187 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Avesta+49+rue+des+Augustins+80000+Amiens",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Avesta+49+rue+des+Augustins+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=Avesta,+49+rue+des+Augustins,+80000+Amiens&z=16&output=embed",
+  "deliveroo": "https://deliveroo.fr/fr/menu/amiens/amiens-centre-ville/avesta-49-rue-des-augustins",
+  "rating": { "value": 4.7, "count": 199, "source": "Google", "checked": "2026-11-10" },
+  "order": { "minutesAhead": 20, "stepMinutes": 15, "daysAhead": 2, "maxPerLine": 15 },
+  "payment": { "enabled": false, "provider": "stripe", "currency": "eur" },
+  "legal": { "company": "AVESTA (SAS)", "siret": "927 844 589 00014", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

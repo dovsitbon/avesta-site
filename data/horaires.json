@@ -1,0 +1,14 @@
+{
+  "_doc": "Horaires (heure de Paris), à confirmer avec le restaurant : tous les jours de 11 h à 5 h du matin (Google, Mappy). Un créneau dont la fin est avant le début passe minuit : [\"11:00\", \"05:00\"] = de 11 h à 5 h le lendemain. 1 = lundi … 7 = dimanche. exceptions : fermetures ou horaires spéciaux datés (AAAA-MM-JJ), « closed » ou des créneaux. Le statut « Ouvert / Fermé » et les heures de retrait des commandes en dépendent.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [["11:00", "05:00"]],
+    "2": [["11:00", "05:00"]],
+    "3": [["11:00", "05:00"]],
+    "4": [["11:00", "05:00"]],
+    "5": [["11:00", "05:00"]],
+    "6": [["11:00", "05:00"]],
+    "7": [["11:00", "05:00"]]
+  },
+  "exceptions": []
+}

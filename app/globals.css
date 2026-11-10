@@ -1,0 +1,393 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts) : Fraunces pour les titres, Inter pour le texte. Aucun appel à Google Fonts. */
+@font-face {
+  font-family: "Fraunces Local";
+  src: url("/fonts/fraunces-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Local";
+  src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Charte par défaut (à ajuster d'après les photos de l'enseigne) : la nuit d'Amiens et le safran.
+     Bleu nuit pour les grands aplats, safran pour les actions, turquoise et grenade en touches. */
+  --color-night: #1d2a44;
+  --color-night-deep: #141e33;
+  --color-night-soft: #2a3a5c;
+  --color-saffron: #e3a21a;
+  --color-saffron-soft: #f5dfa8;
+  --color-turquoise: #2a9d8f;
+  /* Turquoise foncé pour le petit texte sur crème : 5:1 */
+  --color-turquoise-ink: #1c6f65;
+  --color-grenade: #a3283a;
+  --color-cream: #f7f1e6;
+  --color-cream-deep: #efe5d2;
+  --color-paper: #fffcf6;
+  --color-ink: #1d2a44;
+  /* Texte courant sur crème : 8:1 */
+  --color-muted: #4a5266;
+  --color-line: #e2d6bf;
+
+  --font-body: "Inter Local", system-ui, sans-serif;
+  --font-display: "Fraunces Local", Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-block-start: 6rem;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-saffron);
+    color: var(--color-night);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-saffron);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-turquoise-ink);
+  }
+  .on-night .eyebrow,
+  .eyebrow.on-night {
+    color: var(--color-saffron);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    font-variation-settings: "opsz" 144;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .on-night .lead {
+    color: rgb(247 241 230 / 0.78);
+  }
+
+  .btn,
+  .btn-line,
+  .btn-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.1;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft),
+      transform 0.2s var(--ease-soft);
+  }
+  .btn:active,
+  .btn-line:active,
+  .btn-light:active {
+    transform: scale(0.98);
+  }
+  /* Action principale : safran, texte bleu nuit (6,5:1) */
+  .btn {
+    background: var(--color-saffron);
+    border: 2px solid var(--color-saffron);
+    color: var(--color-night);
+  }
+  .btn:hover {
+    background: #f0b43a;
+    border-color: #f0b43a;
+  }
+  .btn-line {
+    border: 2px solid currentColor;
+    color: inherit;
+  }
+  .btn-line:hover {
+    background: var(--color-night);
+    border-color: var(--color-night);
+    color: var(--color-cream);
+  }
+  .on-night .btn-line:hover {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-night);
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.24em;
+    text-decoration-color: var(--color-saffron);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 1.5px solid var(--color-line);
+    border-radius: 12px;
+    background: var(--color-paper);
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d2a44' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.8rem center / 1.1rem;
+    padding-inline-end: 2.4rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-night);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-grenade);
+  }
+  .field::placeholder {
+    color: #7d8496;
+  }
+  .label {
+    display: block;
+    margin-block-end: 0.4rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-muted);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.75rem;
+    padding: 0.45rem 1.1rem;
+    border: 1.5px solid var(--color-line);
+    border-radius: 999px;
+    background: var(--color-paper);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-night);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"] {
+    border-color: var(--color-night);
+    background: var(--color-night);
+    color: var(--color-cream);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-saffron);
+    outline-offset: 3px;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .tag-toConfirm {
+    background: var(--color-saffron-soft);
+    color: #6b4a06;
+  }
+  .tag-spicy {
+    background: #f3d9dc;
+    color: var(--color-grenade);
+  }
+
+  .card {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.6s var(--ease-soft);
+  }
+  .zoom:hover img,
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+
+  /* Frise perse : une rangée d'étoiles à huit branches au trait, en séparateur discret */
+  .frieze {
+    height: 22px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 22'%3E%3Cg fill='none' stroke='%23E3A21A' stroke-width='1.2' stroke-linejoin='round'%3E%3Cpath d='M22 3 L30 11 L22 19 L14 11Z'/%3E%3Cpath d='M16.3 5.3H27.7V16.7H16.3Z'/%3E%3Cpath d='M0 11H9M35 11H44'/%3E%3C/g%3E%3C/svg%3E") repeat-x center / auto 100%;
+    opacity: 0.85;
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) : courte et sobre */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 14px));
+}
+.reveal {
+  transition:
+    opacity 0.6s var(--ease-out) var(--reveal-delay, 0s),
+    transform 0.6s var(--ease-out) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.25s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.7s var(--ease-out) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* ——— Ouverture (1,2 s) : fond bleu nuit, l'étoile à huit branches se dessine au trait safran,
+   « AVESTA » apparaît, puis « OUVERT JUSQU'À 5 H », puis fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-night);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw var(--t, 0.4s) cubic-bezier(0.55, 0, 0.3, 1) var(--d, 0s) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-word {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-word 0.3s var(--ease-out) var(--d, 0.5s) forwards;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

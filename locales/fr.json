@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "title": "Restaurant perse et tacos ouvert jusqu'à 5 h à Amiens | Avesta",
+    "description": "Avesta, 49 rue des Augustins à Amiens : spécialités perses, tacos, assiettes, sandwichs et frites, tous les jours de 11 h à 5 h du matin. Sur place ou à emporter, commande en ligne.",
+    "ogAlt": "Avesta, spécialités perses et tacos, ouvert jusqu'à 5 h, 49 rue des Augustins à Amiens"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "home": "Avesta, accueil",
+    "carte": "La carte",
+    "perses": "Spécialités perses",
+    "order": "Commander",
+    "infos": "Infos",
+    "orderCta": "Commander",
+    "call": "Appeler",
+    "route": "Itinéraire",
+    "lang": "Langue"
+  },
+  "intro": { "skip": "Passer", "open": "Ouvert jusqu'à 5 h" },
+  "announce": { "close": "Fermer le bandeau" },
+  "hero": {
+    "eyebrow": "Spécialités perses · Tacos · Assiettes · Amiens",
+    "title": "Ouvert quand Amiens a faim.",
+    "sub": "Tous les jours, de 11 h à 5 h du matin. Rue des Augustins.",
+    "ctaOrder": "Commander",
+    "ctaMenu": "Voir le menu",
+    "rating": "{value}/5 sur Google",
+    "ratingCount": "{count} avis",
+    "ratingNote": "Note Google relevée le {date}"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé en ce moment",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "tiles": {
+    "title": "La carte en un coup d'œil",
+    "items": {
+      "perses": "Spécialités perses",
+      "tacos": "Tacos",
+      "assiettes": "Assiettes",
+      "sandwichs": "Sandwichs",
+      "menus": "Menus",
+      "desserts-boissons": "Desserts & boissons"
+    }
+  },
+  "services": {
+    "title": "Les services d'Avesta",
+    "items": [
+      { "t": "Jusqu'à 5 h", "d": "Tous les jours, même le dimanche." },
+      { "t": "À emporter", "d": "Commandez, passez, c'est prêt." },
+      { "t": "Sur place", "d": "Une table, une assiette, on s'occupe du reste." },
+      { "t": "Par téléphone", "d": "03 75 50 82 02, à toute heure d'ouverture." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Choisissez. On s'occupe du reste.",
+    "intro": "Tacos, assiettes, sandwichs et spécialités perses. Les prix sont en clair, l'ajout à la commande en un geste.",
+    "tabsLabel": "Catégories de la carte",
+    "tabs": {
+      "perses": "Spécialités perses",
+      "tacos": "Tacos",
+      "assiettes": "Assiettes",
+      "sandwichs": "Sandwichs",
+      "menus": "Box & menus",
+      "desserts-boissons": "Desserts & boissons"
+    },
+    "priceOnSite": "Prix sur place",
+    "from": "à partir de {price}",
+    "add": "Ajouter",
+    "addLabel": "Ajouter à la commande : {name}",
+    "askOnSite": "Demandez au comptoir",
+    "seeFull": "Toute la carte",
+    "persesNote": "Les spécialités perses de la maison sont en cours de mise en ligne. Celles-ci sont à confirmer : demandez au comptoir ce qui est servi ce jour-là.",
+    "choicesTitle": "Au choix",
+    "allergens": "Allergènes : demandez-nous, on vous dit tout plat par plat.",
+    "checked": "Prix relevés le {date}, à confirmer sur place."
+  },
+  "tags": {
+    "toConfirm": "À confirmer",
+    "spicy": "Relevé"
+  },
+  "sizes": { "m": "Taille M", "l": "Taille L", "xl": "Taille XL" },
+  "optionTitles": { "viande": "Viande", "sauce": "Sauce", "base": "Base", "size": "Taille" },
+  "options": {
+    "viande": { "poulet": "Poulet", "kebab": "Kebab", "tenders": "Tenders", "nuggets": "Nuggets", "steak": "Steak", "cordon-bleu": "Cordon bleu", "merguez": "Merguez", "kefta": "Kefta" },
+    "sauce": { "blanche": "Blanche", "algerienne": "Algérienne", "samourai": "Samouraï", "harissa": "Harissa", "biggy": "Biggy", "barbecue": "Barbecue", "ketchup": "Ketchup", "mayonnaise": "Mayonnaise" },
+    "base": { "riz": "Riz", "pates": "Pâtes" }
+  },
+  "products": {
+    "kabab-koobideh": { "name": "Kabab koobideh", "desc": "La brochette perse de viande hachée, grillée, avec riz au safran et tomate grillée." },
+    "joojeh-kabab": { "name": "Joojeh kabab", "desc": "Poulet mariné au safran et au citron, grillé en brochette." },
+    "chelow-tahdig": { "name": "Riz au safran et tahdig", "desc": "Riz basmati parfumé au safran et sa croûte dorée, le tahdig." },
+    "doogh": { "name": "Doogh", "desc": "La boisson perse au yaourt et à la menthe, bien fraîche." },
+    "tacos": { "name": "Tacos", "desc": "Galette grillée, votre viande, vos sauces et des frites dedans. Trois tailles." },
+    "assiette-adana": { "name": "Assiette adana", "desc": "Brochette de viande hachée relevée, frites et salade." },
+    "assiette-kebab": { "name": "Assiette kebab", "desc": "Viande kebab, frites et salade, avec la sauce de votre choix." },
+    "assiette-kefta": { "name": "Assiette kefta", "desc": "Kefta grillée, frites et salade." },
+    "assiette-poulet": { "name": "Assiette poulet", "desc": "Poulet, frites et salade." },
+    "assiette-tenders": { "name": "Assiette tenders", "desc": "Tenders croustillants, frites et salade." },
+    "assiette-steak": { "name": "Assiette steak", "desc": "Steak, frites et salade." },
+    "assiette-cordon-bleu": { "name": "Assiette cordon bleu", "desc": "Cordon bleu, frites et salade." },
+    "assiette-merguez": { "name": "Assiette merguez", "desc": "Merguez grillées, frites et salade." },
+    "assiette-nuggets": { "name": "Assiette nuggets", "desc": "Nuggets, frites et salade." },
+    "sandwich": { "name": "Sandwich", "desc": "Votre viande au choix : poulet, kebab, nuggets… Crudités et sauce." },
+    "burger": { "name": "Burger", "desc": "Poulet, steak ou tenders, avec la sauce de votre choix." },
+    "panini": { "name": "Panini", "desc": "Kebab, poulet, steak… pressé et bien chaud." },
+    "box": { "name": "Box", "desc": "Base riz ou pâtes, votre viande et votre sauce." },
+    "menu-etudiant": { "name": "Menu étudiant", "desc": "Une formule pour les étudiants. Contenu et prix bientôt en ligne." },
+    "dessert": { "name": "Desserts", "desc": "Demandez au comptoir ce qu'il y a ce soir." },
+    "canette": { "name": "Canette 33 cl", "desc": "Coca-Cola, Fanta, Oasis, Ice Tea, Sprite, Orangina, Tropico, Hawaï." },
+    "energy": { "name": "Monster ou Red Bull", "desc": "En canette." },
+    "bouteille-50": { "name": "Bouteille 50 cl", "desc": "Coca-Cola, Ice Tea, Volvic aromatisée, Tropico, Cristaline pêche." },
+    "jus": { "name": "Jus de fruits 25 cl", "desc": "Orange, pomme ou multifruit." },
+    "eau-50": { "name": "Eau 50 cl", "desc": "Cristaline." },
+    "bouteille-15": { "name": "Grande bouteille", "desc": "Coca-Cola ou Fanta 1,5 L, Ice Tea 1,25 L. À partager." }
+  },
+  "blocks": {
+    "perses": {
+      "eyebrow": "D'où vient Avesta",
+      "title": "Un peu de Perse, rue des Augustins.",
+      "text": "Avesta est un restaurant de spécialités perses. Safran, grillades, riz parfumé : les recettes de la maison ont leur place à côté des tacos et des assiettes.",
+      "cta": "Voir le menu",
+      "photo": "Spécialité perse, en gros plan"
+    },
+    "nuit": {
+      "eyebrow": "La nuit à Amiens",
+      "title": "Il est 2 h. C'est ouvert.",
+      "text": "Après les cours, après le service, après la soirée : on vous attend jusqu'à 5 h, tous les jours. La lumière est allumée, la plancha aussi.",
+      "cta": "Itinéraire",
+      "photo": "La façade éclairée, la nuit"
+    },
+    "etudiants": {
+      "eyebrow": "Menus étudiants",
+      "title": "Bien manger, sans vider le compte.",
+      "text": "Beaucoup d'étudiants passent nous voir. Une formule pensée pour eux arrive bientôt. En attendant, le tacos commence à 7,99 €.",
+      "cta": "Commander",
+      "photo": "Un tacos et ses frites"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Avis",
+    "title": "Ce qu'on en dit sur Google",
+    "text": "Les tacos, les assiettes, les frites, l'accueil et les horaires de nuit : c'est ce qui revient le plus.",
+    "cta": "Lire les avis sur Google"
+  },
+  "order": {
+    "eyebrow": "Commander",
+    "title": "Commandez. Passez. C'est prêt.",
+    "intro": "Choisissez vos plats, sur place ou à emporter, et l'heure qui vous arrange. Vous réglez au comptoir.",
+    "callTitle": "Plus simple au téléphone ?",
+    "callText": "Appelez-nous à toute heure d'ouverture, on note tout.",
+    "callCta": "Appeler",
+    "itemsTitle": "Vos plats",
+    "modeTitle": "Sur place ou à emporter",
+    "pickupTitle": "À quelle heure ?",
+    "contactTitle": "Vos coordonnées",
+    "dish": "Plat",
+    "quantity": "Quantité",
+    "addLine": "Ajouter un plat",
+    "removeLine": "Retirer ce plat",
+    "day": "Jour",
+    "time": "Heure",
+    "tonight": "Cette nuit",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "noSlots": "Plus de créneau ce jour-là : choisissez un autre jour.",
+    "modes": { "emporter": "À emporter", "surPlace": "Sur place" },
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail (facultatif)",
+    "emailHint": "Pour recevoir le récapitulatif de votre commande.",
+    "message": "Une remarque ?",
+    "messagePh": "Sans oignons, allergie, couverts…",
+    "total": "Total estimé",
+    "totalNote": "Certains prix restent à confirmer au comptoir.",
+    "submit": "Envoyer ma commande",
+    "sending": "Envoi…",
+    "payNote": "Pas de paiement en ligne : vous réglez au comptoir.",
+    "payOnline": "Payer en ligne",
+    "phoneOnly": "Les spécialités perses se commandent au téléphone pour l'instant.",
+    "errors": {
+      "lines": "Choisissez au moins un plat.",
+      "day": "Choisissez un jour.",
+      "time": "Choisissez une heure.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "send": "L'envoi n'a pas fonctionné. Appelez-nous, on prend votre commande au téléphone."
+    },
+    "done": {
+      "title": "C'est noté.",
+      "text": "Votre commande est partie en cuisine. Si on a une question, on vous appelle.",
+      "pendingTitle": "Dernière étape : un appel",
+      "pendingText": "Votre récapitulatif est prêt. Appelez-nous pour confirmer, on lance la commande tout de suite.",
+      "mail": "Un récapitulatif a été envoyé à {email}.",
+      "again": "Nouvelle commande"
+    },
+    "whatsapp": "Envoyer sur WhatsApp",
+    "mail": {
+      "subject": "Nouvelle commande",
+      "title": "Nouvelle commande",
+      "lines": "Plats",
+      "mode": "Service",
+      "pickup": "Heure",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Remarque",
+      "total": "Total estimé",
+      "lang": "Langue du client",
+      "confirmSubject": "Avesta : votre commande",
+      "confirmIntro": "Bonjour {name}, merci pour votre commande. La voici :",
+      "confirmOutro": "Vous réglez au comptoir. Une question ? Appelez-nous au 03 75 50 82 02.\n\nÀ tout à l'heure,\nAvesta, 49 rue des Augustins, Amiens"
+    }
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "49 rue des Augustins. Jusqu'à 5 h.",
+    "address": "Adresse",
+    "access": "Venir",
+    "accessText": "En plein centre d'Amiens, à quelques minutes à pied de la cathédrale. Pour se garer : places en voirie dans les rues voisines et parkings du centre-ville. À pied, c'est encore plus simple.",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "route": "Itinéraire",
+    "mapTitle": "Carte : Avesta, 49 rue des Augustins, Amiens",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "everyDay": "Tous les jours",
+    "closed": "Fermé",
+    "services": "Sur place · À emporter · Commande par téléphone",
+    "delivery": "Livraison : Avesta est aussi sur Deliveroo et Uber Eats."
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Bon à savoir",
+    "items": [
+      { "q": "Jusqu'à quelle heure êtes-vous ouverts ?", "a": "Tous les jours, de 11 h à 5 h du matin, week-end compris. Le statut « Ouvert maintenant » en haut du site est à jour en direct. Les fermetures exceptionnelles sont annoncées dans le bandeau." },
+      { "q": "Comment commander à emporter ?", "a": "Avec le formulaire du site : choisissez vos plats, sur place ou à emporter, et votre heure. Vous pouvez aussi appeler le 03 75 50 82 02, ou passer directement au comptoir." },
+      { "q": "Combien de temps faut-il attendre ?", "a": "En commandant en ligne, vous choisissez votre heure : au plus tôt 20 minutes après votre commande. Votre plat est prêt quand vous arrivez." },
+      { "q": "Comment payer ?", "a": "Vous réglez au comptoir, au moment du retrait ou à la fin du repas. Il n'y a pas de paiement en ligne pour l'instant." },
+      { "q": "Proposez-vous des spécialités perses ?", "a": "Oui, c'est l'identité d'Avesta. La liste complète arrive bientôt sur le site : en attendant, demandez au comptoir ce qui est servi ce jour-là." },
+      { "q": "Livrez-vous ?", "a": "Pas directement, mais Avesta est sur Deliveroo et Uber Eats. Pour le meilleur prix et des frites bien chaudes, le plus simple reste de commander ici et de passer." }
+    ]
+  },
+  "footer": {
+    "tagline": "Spécialités perses, tacos, assiettes et frites. Tous les jours, jusqu'à 5 h du matin.",
+    "menu": "La carte",
+    "nuit": "Restaurant ouvert tard à Amiens",
+    "tacos": "Tacos à Amiens",
+    "legal": "Mentions légales",
+    "rights": "© {year} Avesta, Amiens"
+  },
+  "pages": {
+    "carte": {
+      "slug": "carte",
+      "title": "La carte",
+      "metaTitle": "Carte et prix : tacos, assiettes, spécialités perses | Avesta Amiens",
+      "metaDescription": "La carte d'Avesta à Amiens : tacos dès 7,99 €, assiettes kebab, kefta, adana, sandwichs, burgers, paninis, box et spécialités perses. Ouvert jusqu'à 5 h, à emporter.",
+      "eyebrow": "Avesta · Amiens",
+      "lead": "Tout est sur cette page, avec les prix. Ajoutez, commandez, passez."
+    },
+    "nuit": {
+      "slug": "restaurant-ouvert-tard-amiens",
+      "title": "Un restaurant ouvert tard à Amiens",
+      "metaTitle": "Restaurant ouvert tard à Amiens, jusqu'à 5 h du matin | Avesta",
+      "metaDescription": "Manger la nuit à Amiens : Avesta est ouvert tous les jours jusqu'à 5 h du matin, 49 rue des Augustins. Tacos, kebab, assiettes, spécialités perses, sur place ou à emporter.",
+      "eyebrow": "Manger la nuit à Amiens",
+      "lead": "Avesta est ouvert tous les jours de 11 h à 5 h du matin, en plein centre d'Amiens. Pour un repas après le travail, une faim d'après soirée ou une nuit de révisions.",
+      "sections": [
+        { "h": "Ouvert tous les jours, jusqu'à 5 h", "p": "Du lundi au dimanche, la cuisine tourne de 11 h à 5 h du matin. Pas de jour de fermeture : vérifiez simplement le bandeau en haut du site pour les fermetures exceptionnelles." },
+        { "h": "Ce qu'on mange à 3 h du matin", "p": "Des tacos, un kebab, une assiette avec frites et salade, un burger ou une box riz ou pâtes. Et, selon les jours, les spécialités perses de la maison." },
+        { "h": "Sur place, à emporter ou au téléphone", "p": "Installez-vous, passez prendre votre commande, ou appelez le 03 75 50 82 02. Sur le site, vous choisissez votre heure de retrait, même en pleine nuit." },
+        { "h": "En plein centre d'Amiens", "p": "Au 49 rue des Augustins, à quelques minutes à pied de la cathédrale. Pratique pour rentrer à pied après une soirée en ville." }
+      ],
+      "cta": "Commander maintenant"
+    },
+    "tacos": {
+      "slug": "tacos-amiens",
+      "title": "Tacos à Amiens",
+      "metaTitle": "Tacos à Amiens dès 7,99 €, ouvert jusqu'à 5 h | Avesta",
+      "metaDescription": "Des tacos à Amiens, en trois tailles, dès 7,99 € : poulet, kebab, tenders, cordon bleu, merguez… Chez Avesta, 49 rue des Augustins, ouvert tous les jours jusqu'à 5 h.",
+      "eyebrow": "Le tacos, chez Avesta",
+      "lead": "Galette grillée, viande au choix, sauces et frites dedans. Trois tailles, à partir de 7,99 €, tous les jours jusqu'à 5 h du matin.",
+      "sections": [
+        { "h": "Composez le vôtre", "p": "Poulet, kebab, tenders, nuggets, steak, cordon bleu, merguez ou kefta. Ajoutez votre sauce : blanche, algérienne, samouraï, harissa, biggy, barbecue…" },
+        { "h": "Trois tailles", "p": "Pour une petite faim, une grosse faim ou pour ceux qui ne savent pas choisir. Le tacos commence à 7,99 € ; les prix des grandes tailles sont affichés au comptoir." },
+        { "h": "Avec des frites, bien sûr", "p": "Les frites de la maison reviennent souvent dans les avis de nos clients. Dans le tacos ou à côté, elles sont là." },
+        { "h": "Jusqu'à 5 h, tous les jours", "p": "Commandez en ligne et choisissez votre heure, ou passez directement au 49 rue des Augustins." }
+      ],
+      "cta": "Commander un tacos"
+    },
+    "legal": {
+      "slug": "mentions-legales",
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | Avesta Amiens",
+      "editor": "Éditeur du site",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations envoyées avec le formulaire de commande (nom, téléphone, e-mail facultatif) servent uniquement à préparer et confirmer votre commande. Elles ne sont ni revendues ni utilisées pour de la publicité. Pour les faire supprimer, appelez-nous au {phone}.",
+      "photos": "Photos",
+      "photosText": "Photos : Avesta. Aucune image de banque.",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "toConfirm": "à compléter"
+    }
+  },
+  "alt": {},
+  "slots": {
+    "soon": "Photo à venir",
+    "hero": "La façade éclairée, la nuit",
+    "facade": "La façade",
+    "salle": "La salle"
+  }
+}

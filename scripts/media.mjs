@@ -6,13 +6,27 @@
 //    et note leurs dimensions dans data/media-sizes.json.
 // 2. Fabrique l'image de partage public/og.jpg (1200 × 630) : la photo du hero si elle existe, sinon le logo sur bleu nuit.
 // Les noms attendus sont listés dans assets/A-PHOTOGRAPHIER.md. Les originaux bruts (Google Maps…) vont dans assets/raw/.
-import { mkdir, readdir, writeFile, access } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile, access } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const CATS = ["hero", "plats", "specialites-perses", "salle", "facade"];
 const exists = (f) => access(f).then(() => true, () => false);
+
+// 0. Photos choisies (data/photos.json) : copiées ou recadrées depuis assets/raw/ vers assets/<catégorie>/
+//    sans écraser une photo déjà présente (vos propres photos restent prioritaires).
+const { photos } = JSON.parse(await readFile(path.join(ROOT, "data/photos.json"), "utf8"));
+for (const [media, p] of Object.entries(photos)) {
+  const out = path.join(ROOT, "assets", media.replace(/^\/media\//, ""));
+  await mkdir(path.dirname(out), { recursive: true });
+  if (await exists(out)) continue;
+  const src = path.join(ROOT, "assets/raw", p.raw);
+  if (!(await exists(src))) continue;
+  let img = sharp(src).rotate();
+  if (p.crop) img = img.extract(p.crop);
+  await img.jpeg({ quality: 94 }).toFile(out);
+}
 
 const sizes = {};
 for (const cat of CATS) {
@@ -40,7 +54,7 @@ const text = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="1200" h
 </svg>`);
 const heroFile = path.join(ROOT, "assets/hero/hero.jpg");
 const layers = [];
-if (await exists(heroFile)) layers.push({ input: await sharp(heroFile).rotate().resize(460, 630, { fit: "cover" }).toBuffer(), left: 740, top: 0 });
+if (await exists(heroFile)) layers.push({ input: await sharp(heroFile).rotate().resize(400, 630, { fit: "cover" }).toBuffer(), left: 800, top: 0 });
 layers.push({ input: logo, left: 80, top: 150 }, { input: text, left: 0, top: 0 });
 await sharp({ create: { width: 1200, height: 630, channels: 3, background: "#1D2A44" } })
   .composite(layers)

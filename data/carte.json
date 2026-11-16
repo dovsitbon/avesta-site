@@ -40,7 +40,7 @@
     "menu-etudiant": { "price": null, "photo": ["/media/plats/menu-etudiant.jpg"], "illus": "box", "tags": ["toConfirm"] },
 
     "dessert": { "price": null, "photo": ["/media/plats/dessert.jpg"], "illus": "dessert", "tags": ["toConfirm"] },
-    "canette": { "price": 2.3, "photo": [], "illus": "can", "tags": [] },
+    "canette": { "price": 2.3, "photo": ["/media/plats/boissons.jpg"], "illus": "can", "tags": [] },
     "energy": { "price": 3, "photo": [], "illus": "can", "tags": [] },
     "bouteille-50": { "price": 2.8, "photo": [], "illus": "bottle", "tags": [] },
     "jus": { "price": 2.5, "photo": [], "illus": "glass", "tags": [] },

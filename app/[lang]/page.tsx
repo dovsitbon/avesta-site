@@ -85,7 +85,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <section className="on-night relative overflow-hidden bg-night text-cream md:min-h-[calc(100svh-6.5rem)]">
         {hero ? (
           <>
-            <Image src={hero.src} alt={d.slots.hero} width={hero.width} height={hero.height} sizes="100vw" quality={80} priority fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
+            <Image src={hero.src} alt={d.slots.heroReal} width={hero.width} height={hero.height} sizes="100vw" quality={80} priority fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-night/60" aria-hidden="true" />
           </>
         ) : (
@@ -152,7 +152,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         night
         flip
         {...b.nuit}
-        photo={{ paths: ["/media/facade/facade-nuit.jpg", "/media/facade/facade.jpg"], label: b.nuit.photo, illus: "moon", tint: "deep" }}
+        photo={{ paths: ["/media/facade/facade-nuit.jpg", "/media/plats/assiettes-trio.jpg"], label: b.nuit.photo, illus: "moon", tint: "deep" }}
         cta={
           <a href={site.directionsUrl} target="_blank" rel="noopener noreferrer" className="btn">
             <PinIcon className="h-5 w-5" />

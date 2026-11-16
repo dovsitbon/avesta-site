@@ -1,1 +1,86 @@
-{}
+{
+ "/media/hero/hero.jpg": [
+  2400,
+  1920
+ ],
+ "/media/plats/assiette-adana.jpg": [
+  720,
+  1600
+ ],
+ "/media/plats/assiette-kebab.jpg": [
+  550,
+  440
+ ],
+ "/media/plats/assiette-nuggets.jpg": [
+  580,
+  440
+ ],
+ "/media/plats/assiette-poulet.jpg": [
+  601,
+  440
+ ],
+ "/media/plats/assiette-tenders.jpg": [
+  550,
+  440
+ ],
+ "/media/plats/assiettes-trio.jpg": [
+  1600,
+  900
+ ],
+ "/media/plats/boissons.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/box.jpg": [
+  550,
+  440
+ ],
+ "/media/plats/burger.jpg": [
+  550,
+  440
+ ],
+ "/media/plats/dessert.jpg": [
+  640,
+  480
+ ],
+ "/media/plats/menu-etudiant.jpg": [
+  550,
+  440
+ ],
+ "/media/plats/panini.jpg": [
+  1284,
+  1600
+ ],
+ "/media/plats/sandwich.jpg": [
+  550,
+  440
+ ],
+ "/media/plats/tacos.jpg": [
+  550,
+  440
+ ],
+ "/media/specialites-perses/bloc-perses.jpg": [
+  1067,
+  1600
+ ],
+ "/media/specialites-perses/chelow-tahdig.jpg": [
+  1067,
+  1600
+ ],
+ "/media/specialites-perses/doogh.jpg": [
+  440,
+  440
+ ],
+ "/media/specialites-perses/joojeh-kabab.jpg": [
+  1600,
+  1280
+ ],
+ "/media/specialites-perses/kabab-koobideh.jpg": [
+  1600,
+  1067
+ ],
+ "/media/specialites-perses/tuile-perses.jpg": [
+  1600,
+  1067
+ ]
+}

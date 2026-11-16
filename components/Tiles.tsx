@@ -13,10 +13,10 @@ type Tile = { id: CategoryId; paths: string[]; illus: IllusName; tint: Tint };
 const TILES: Tile[] = [
   { id: "perses", paths: ["/media/specialites-perses/tuile-perses.jpg", "/media/specialites-perses/kabab-koobideh.jpg"], illus: "skewer", tint: "turquoise" },
   { id: "tacos", paths: ["/media/plats/tuile-tacos.jpg", "/media/plats/tacos.jpg"], illus: "tacos", tint: "night" },
-  { id: "assiettes", paths: ["/media/plats/tuile-assiettes.jpg", "/media/plats/assiette-kebab.jpg"], illus: "plate", tint: "deep" },
+  { id: "assiettes", paths: ["/media/plats/tuile-assiettes.jpg", "/media/plats/assiettes-trio.jpg", "/media/plats/assiette-kebab.jpg"], illus: "plate", tint: "deep" },
   { id: "sandwichs", paths: ["/media/plats/tuile-sandwichs.jpg", "/media/plats/sandwich.jpg"], illus: "sandwich", tint: "night" },
   { id: "menus", paths: ["/media/plats/tuile-menus.jpg", "/media/plats/box.jpg"], illus: "box", tint: "deep" },
-  { id: "desserts-boissons", paths: ["/media/plats/tuile-desserts-boissons.jpg", "/media/plats/dessert.jpg"], illus: "glass", tint: "grenade" },
+  { id: "desserts-boissons", paths: ["/media/plats/tuile-desserts-boissons.jpg", "/media/plats/boissons.jpg", "/media/plats/dessert.jpg"], illus: "glass", tint: "grenade" },
 ];
 
 export function Tiles() {
@@ -30,7 +30,7 @@ export function Tiles() {
             onClick={(e) => {
               if (openTab(t.id)) e.preventDefault();
             }}
-            className="group relative block aspect-[4/5] overflow-hidden rounded-[18px]"
+            className="tile group relative block aspect-[4/5] overflow-hidden rounded-[18px]"
           >
             <Photo paths={t.paths} alt="" illus={t.illus} tint={t.tint} sizes="(min-width: 1280px) 16vw, (min-width: 768px) 32vw, 50vw" className="absolute inset-0 h-full w-full" illusClassName="h-[38%] w-[38%] -translate-y-5 opacity-90 transition-transform duration-500 group-hover:-translate-y-7" />
             <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night-deep/85 to-transparent px-3 pt-10 pb-4 text-center text-[0.8125rem] font-semibold tracking-[0.14em] text-cream uppercase md:text-[0.875rem]">

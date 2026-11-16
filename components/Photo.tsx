@@ -2,6 +2,11 @@ import Image from "next/image";
 import { firstImg } from "@/lib/media";
 import { Illus, type IllusName } from "@/components/Illus";
 import { Star } from "@/components/Logo";
+import photos from "@/data/photos.json";
+
+// Photos libres de droits (data/photos.json → kind: "stock") : affichées avec la mention « Photo d'illustration » (globals.css).
+const STOCK = new Set(Object.entries(photos.photos as Record<string, { kind: string }>).filter(([, v]) => v.kind === "stock").map(([k]) => k));
+export const isStock = (src: string) => STOCK.has(src);
 
 const TINTS = {
   night: "bg-night text-saffron",
@@ -43,7 +48,7 @@ export function Photo({
   const p = firstImg(paths);
   if (p)
     return (
-      <div className={`zoom bg-night ${className}`}>
+      <div className={`zoom bg-night ${className}`} data-stock={isStock(p.src) ? "" : undefined}>
         <Image src={p.src} alt={alt} width={p.width} height={p.height} sizes={sizes} quality={75} priority={priority} fetchPriority={priority ? "high" : undefined} className={`h-full w-full object-cover ${imgClassName}`} />
       </div>
     );

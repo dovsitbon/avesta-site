@@ -81,16 +81,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd(lang)) }} />
 
-      {/* 1. Hero plein écran : la photo la plus forte (façade la nuit), un titre court, deux boutons, la note Google et le statut */}
+      {/* 1. Hero plein écran : la photo la plus forte (les plats d'Avesta), un titre court, deux boutons, la note Google et le statut */}
       <section className="on-night relative overflow-hidden bg-night text-cream md:min-h-[calc(100svh-6.5rem)]">
-        {hero ? (
-          <>
-            <Image src={hero.src} alt={d.slots.heroReal} width={hero.width} height={hero.height} sizes="100vw" quality={80} priority fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
-            <div className="absolute inset-0 bg-night/60" aria-hidden="true" />
-          </>
-        ) : (
-          <Star className="pointer-events-none absolute -end-40 -top-24 h-[42rem] w-[42rem] text-saffron/[0.07] md:-end-24 md:h-[56rem] md:w-[56rem]" strokeWidth={0.5} />
-        )}
+        <Star className="pointer-events-none absolute -end-40 -top-24 h-[42rem] w-[42rem] text-saffron/[0.07] md:-end-24 md:h-[56rem] md:w-[56rem]" strokeWidth={0.5} />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-5 pt-14 pb-14 md:min-h-[calc(100svh-6.5rem)] md:grid-cols-[1.25fr_1fr] md:items-center md:px-8 md:py-16">
           <div>
             <p className="eyebrow rise">{d.hero.eyebrow}</p>
@@ -113,7 +106,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <OpenStatus className="font-medium" />
             </div>
           </div>
-          {!hero && (
+          {hero ? (
+            <div className="rise relative -mx-5 md:mx-0" style={{ animationDelay: "0.2s" }}>
+              <Image src={hero.src} alt={d.slots.heroReal} width={hero.width} height={hero.height} sizes="(min-width: 768px) 42vw, 100vw" quality={80} priority fetchPriority="high" className="aspect-[4/3] w-full object-cover md:aspect-[4/5] md:rounded-[28px]" />
+            </div>
+          ) : (
             <div className="rise relative hidden md:block" style={{ animationDelay: "0.2s" }}>
               <Photo paths={HERO} alt={d.slots.hero} label={`${d.slots.soon} · ${d.slots.hero}`} illus="facade" tint="deep" sizes="40vw" className="aspect-[4/5] rounded-[28px] ring-1 ring-saffron/25" illusClassName="h-24 w-24" />
             </div>
